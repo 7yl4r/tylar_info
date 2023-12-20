@@ -22,3 +22,45 @@ Creating project at /home/tylar/repos/tylar_info:
 Initialized empty Git repository in /home/tylar/repos/tylar_info/.git/
 ```
 
+Set up gh repo.
+Abandoning my last start at https://github.com/7yl4r/tylar.info.
+There isn't much there.
+This time I am using the "blog" template rather than the generic "website".
+
+```
+(base) tylar@tylar-gram:~/repos/tylar_info$ git add README.md 
+(base) tylar@tylar-gram:~/repos/tylar_info$ git add _quarto.yml about.qmd index.qmd posts/ profile.jpg styles.css
+(base) tylar@tylar-gram:~/repos/tylar_info$ git commit -a -m 'init commit'
+[main (root-commit) 0b2bc20] init commit
+ 12 files changed, 110 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 _quarto.yml
+ create mode 100644 about.qmd
+ create mode 100644 index.qmd
+ create mode 100644 posts/_metadata.yml
+ create mode 100644 posts/post-with-code/image.jpg
+ create mode 100644 posts/post-with-code/index.qmd
+ create mode 100644 posts/quarto-blog-init/index.qmd
+ create mode 100644 posts/welcome/index.qmd
+ create mode 100644 posts/welcome/thumbnail.jpg
+ create mode 100644 profile.jpg
+ create mode 100644 styles.css
+(base) tylar@tylar-gram:~/repos/tylar_info$ git branch -M main
+(base) tylar@tylar-gram:~/repos/tylar_info$ git remote add origin git@github.com:7yl4r/tylar_info.git
+(base) tylar@tylar-gram:~/repos/tylar_info$ git push -u origin main
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 140.06 KiB | 2.69 MiB/s, done.
+Total 18 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:7yl4r/tylar_info.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+```
+
+Rm the template posts.
+
+```
+(base) tylar@tylar-gram:~/repos/tylar_info$ rm -rf posts/post-with-code/ posts/welcome/
+```

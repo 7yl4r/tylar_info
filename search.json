@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tylar_info",
+    "section": "",
+    "text": "Quarto Blog Init\n\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2023\n\n\nTylar\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/quarto-blog-init/index.html",
+    "href": "posts/quarto-blog-init/index.html",
+    "title": "Quarto Blog Init",
+    "section": "",
+    "text": "This first blog post is about setting up this blog. Quarto & RStudio were already set up on my laptop so getting started was easy.\nI set up gh repo in the gh web GUI. Abandoning my last start at https://github.com/7yl4r/tylar.info. There isn’t much there. This time I am using the “blog” template rather than the generic “website”.\nI will use a pretty standard git workflow going forward and not paste in future add, commit, push, etc commands."
+  },
+  {
+    "objectID": "posts/quarto-blog-init/index.html#rm-the-template-posts.",
+    "href": "posts/quarto-blog-init/index.html#rm-the-template-posts.",
+    "title": "Quarto Blog Init",
+    "section": "Rm the template posts.",
+    "text": "Rm the template posts.\n(base) tylar@tylar-gram:~/repos/tylar_info$ rm -rf posts/post-with-code/ posts/welcome/\nI want rendered posts to show on github pages."
+  }
+]

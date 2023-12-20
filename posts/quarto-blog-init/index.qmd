@@ -1,0 +1,24 @@
+---
+title: "Quarto Blog Init"
+author: "Tylar"
+date: "2023-12-19"
+---
+
+This first blog post is about setting up this blog.
+Quarto & RStudio were already set up on my laptop so getting started was easy.
+
+```
+(base) tylar@tylar-gram:~/repos$ quarto create project blog tylar_info
+Creating project at /home/tylar/repos/tylar_info:
+  - Created _quarto.yml
+  - Created index.qmd
+  - Created posts/welcome/index.qmd
+  - Created posts/post-with-code/index.qmd
+  - Created about.qmd
+  - Created styles.css
+  - Created posts/_metadata.yml
+
+(base) tylar@tylar-gram:~/repos/tylar_info$ git init
+Initialized empty Git repository in /home/tylar/repos/tylar_info/.git/
+```
+

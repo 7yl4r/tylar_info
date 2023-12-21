@@ -190,7 +190,100 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.</code></pre>
 <section id="rm-the-template-posts." class="level2">
 <h2 class="anchored" data-anchor-id="rm-the-template-posts.">Rm the template posts.</h2>
 <pre><code>(base) tylar@tylar-gram:~/repos/tylar_info$ rm -rf posts/post-with-code/ posts/welcome/</code></pre>
-<p>I want rendered posts to show on github pages.</p>
+<p>I want rendered posts to show on github pages. I tried <code>quarto publish gh-pages</code> but it hung for several minutes and errored when the computer went to sleep:</p>
+<pre><code>(base) tylar@tylar-gram:~/repos/tylar_info$ quarto publish gh-pages
+? Publish site to https://7yl4r.github.io/tylar_info/ using gh-pages? (Y/n) › Yes
+Saved working directory and index state WIP on main: 6b5f1dd rm template posts
+Switched to a new branch 'gh-pages'
+[gh-pages (root-commit) d59f058] Initializing gh-pages branch
+remote: 
+remote: Create a pull request for 'gh-pages' on GitHub by visiting:        
+remote:      https://github.com/7yl4r/tylar_info/pull/new/gh-pages        
+remote: 
+To github.com:7yl4r/tylar_info.git
+ * [new branch]      HEAD -&gt; gh-pages
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add &lt;file&gt;..." to update what will be committed)
+  (use "git restore &lt;file&gt;..." to discard changes in working directory)
+    modified:   posts/quarto-blog-init/index.qmd
+
+Untracked files:
+  (use "git add &lt;file&gt;..." to include in what will be committed)
+    .Rproj.user/
+    .gitignore
+    tylar_info.Rproj
+
+no changes added to commit (use "git add" and/or "git commit -a")
+From github.com:7yl4r/tylar_info
+ * branch            gh-pages   -&gt; FETCH_HEAD
+Rendering for publish:
+
+[1/3] about.qmd
+[2/3] posts/quarto-blog-init/index.qmd
+[3/3] index.qmd
+
+Preparing worktree (resetting branch 'gh-pages'; was at d59f058)
+Branch 'gh-pages' set up to track remote branch 'gh-pages' from 'origin'.
+HEAD is now at d59f058 Initializing gh-pages branch
+fatal: pathspec '.' did not match any files
+[gh-pages 799f3a0] Built site for gh-pages
+ 30 files changed, 6922 insertions(+)
+ create mode 100644 .nojekyll
+ create mode 100644 about.html
+ create mode 100644 index.html
+ create mode 100644 listings.json
+ create mode 100644 posts/post-with-code/image.jpg
+ create mode 100644 posts/post-with-code/index.html
+ create mode 100644 posts/quarto-blog-init/index.html
+ create mode 100644 posts/welcome/index.html
+ create mode 100644 posts/welcome/thumbnail.jpg
+ create mode 100644 profile.jpg
+ create mode 100644 search.json
+ create mode 100644 site_libs/bootstrap/bootstrap-icons.css
+ create mode 100644 site_libs/bootstrap/bootstrap-icons.woff
+ create mode 100644 site_libs/bootstrap/bootstrap.min.css
+ create mode 100644 site_libs/bootstrap/bootstrap.min.js
+ create mode 100644 site_libs/clipboard/clipboard.min.js
+ create mode 100644 site_libs/quarto-html/anchor.min.js
+ create mode 100644 site_libs/quarto-html/popper.min.js
+ create mode 100644 site_libs/quarto-html/quarto-syntax-highlighting.css
+ create mode 100644 site_libs/quarto-html/quarto.js
+ create mode 100644 site_libs/quarto-html/tippy.css
+ create mode 100644 site_libs/quarto-html/tippy.umd.min.js
+ create mode 100644 site_libs/quarto-listing/list.min.js
+ create mode 100644 site_libs/quarto-listing/quarto-listing.js
+ create mode 100644 site_libs/quarto-nav/headroom.min.js
+ create mode 100644 site_libs/quarto-nav/quarto-nav.js
+ create mode 100644 site_libs/quarto-search/autocomplete.umd.js
+ create mode 100644 site_libs/quarto-search/fuse.min.js
+ create mode 100644 site_libs/quarto-search/quarto-search.js
+ create mode 100644 styles.css
+origin  git@github.com:7yl4r/tylar_info.git (fetch)
+origin  git@github.com:7yl4r/tylar_info.git (push)
+To github.com:7yl4r/tylar_info.git
+   d59f058..799f3a0  HEAD -&gt; gh-pages
+
+(|) Deploying gh-pages branch to website (this may take a few minutes)
+(-) Deploying gh-pages branch to website (this may take a few minutes)
+[✓] Deploying gh-pages branch to website (this may take a few minutes)
+ERROR: TypeError: error sending request for url (https://7yl4r.github.io/tylar_info/.nojekyll): connection error: connection reset
+
+TypeError: error sending request for url (https://7yl4r.github.io/tylar_info/.nojekyll): connection error: connection reset
+    at async mainFetch (deno:ext/fetch/26_fetch.js:247:14)
+    at async fetch (deno:ext/fetch/26_fetch.js:464:9)
+    at async file:///opt/quarto/bin/quarto.js:120526:34
+    at async withSpinner (file:///opt/quarto/bin/quarto.js:56614:9)
+    at async Object.publish4 [as publish] (file:///opt/quarto/bin/quarto.js:120520:9)
+    at async publishSite (file:///opt/quarto/bin/quarto.js:121230:38)
+    at async publish5 (file:///opt/quarto/bin/quarto.js:121448:61)
+    at async doPublish (file:///opt/quarto/bin/quarto.js:121404:13)
+    at async publishAction (file:///opt/quarto/bin/quarto.js:121440:13)
+    at async Command.fn (file:///opt/quarto/bin/quarto.js:121392:9)</code></pre>
 
 
 </section>

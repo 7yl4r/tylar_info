@@ -2,11 +2,7 @@ This is a cheatsheet of things I might want ot copy-paste
 
 ```bash
 # create new blog post
-POSTNAME=postname &&
-POSTPATH=posts/$POSTNAME/index.qmd &&
-mkdir posts/$POSTNAME && 
-  cp post_template.qmd $POSTPATH &&
-  emacs $POSTPATH
+source fn.sh && newpost postNameHere
 
 # push gh-pages
 quarto publish gh-pages --no-prompt --no-browser

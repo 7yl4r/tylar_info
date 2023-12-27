@@ -1,0 +1,10 @@
+---
+title: "Quarto Blog Config"
+author: "Tylar"
+date: "2023-12-27"
+---
+
+Created a template for posts and a cheatsheet I can copy-paste from for this blog.
+Looked at using [cookiecutter](https://github.com/cookiecutter/cookiecutter) for creating the post but decided that was overkill.
+The project focuses mostly on whole-directory templates; I think using jinja might be the preferred way to handle single files.
+

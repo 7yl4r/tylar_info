@@ -4,21 +4,7 @@
     "href": "index.html",
     "title": "Tylar_info",
     "section": "",
-    "text": "Quarto Blog Init\n\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2023\n\n\nTylar\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "cheatsheet.html",
-    "href": "cheatsheet.html",
-    "title": "Tylar_info",
-    "section": "",
-    "text": "This is a cheatsheet of things I might want ot copy-paste"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
+    "text": "Quarto Blog Config\n\n\n\n\n\n\n\n\n\n\n\n\nDec 27, 2023\n\n\nTylar\n\n\n\n\n\n\n  \n\n\n\n\nQuarto Blog Init\n\n\n\n\n\n\n\n\n\n\n\n\nDec 19, 2023\n\n\nTylar\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/quarto-blog-init/index.html",
@@ -33,5 +19,26 @@
     "title": "Quarto Blog Init",
     "section": "Rm the template posts.",
     "text": "Rm the template posts.\n(base) tylar@tylar-gram:~/repos/tylar_info$ rm -rf posts/post-with-code/ posts/welcome/\nI want rendered posts to show on github pages. I tried quarto publish gh-pages but it hung for several minutes and errored when the computer went to sleep:\n(base) tylar@tylar-gram:~/repos/tylar_info$ quarto publish gh-pages\n? Publish site to https://7yl4r.github.io/tylar_info/ using gh-pages? (Y/n) › Yes\nSaved working directory and index state WIP on main: 6b5f1dd rm template posts\nSwitched to a new branch 'gh-pages'\n[gh-pages (root-commit) d59f058] Initializing gh-pages branch\nremote: \nremote: Create a pull request for 'gh-pages' on GitHub by visiting:        \nremote:      https://github.com/7yl4r/tylar_info/pull/new/gh-pages        \nremote: \nTo github.com:7yl4r/tylar_info.git\n * [new branch]      HEAD -&gt; gh-pages\nYour branch is up to date with 'origin/main'.\nSwitched to branch 'main'\nOn branch main\nYour branch is up to date with 'origin/main'.\n\nChanges not staged for commit:\n  (use \"git add &lt;file&gt;...\" to update what will be committed)\n  (use \"git restore &lt;file&gt;...\" to discard changes in working directory)\n    modified:   posts/quarto-blog-init/index.qmd\n\nUntracked files:\n  (use \"git add &lt;file&gt;...\" to include in what will be committed)\n    .Rproj.user/\n    .gitignore\n    tylar_info.Rproj\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\nFrom github.com:7yl4r/tylar_info\n * branch            gh-pages   -&gt; FETCH_HEAD\nRendering for publish:\n\n[1/3] about.qmd\n[2/3] posts/quarto-blog-init/index.qmd\n[3/3] index.qmd\n\nPreparing worktree (resetting branch 'gh-pages'; was at d59f058)\nBranch 'gh-pages' set up to track remote branch 'gh-pages' from 'origin'.\nHEAD is now at d59f058 Initializing gh-pages branch\nfatal: pathspec '.' did not match any files\n[gh-pages 799f3a0] Built site for gh-pages\n 30 files changed, 6922 insertions(+)\n create mode 100644 .nojekyll\n create mode 100644 about.html\n create mode 100644 index.html\n create mode 100644 listings.json\n create mode 100644 posts/post-with-code/image.jpg\n create mode 100644 posts/post-with-code/index.html\n create mode 100644 posts/quarto-blog-init/index.html\n create mode 100644 posts/welcome/index.html\n create mode 100644 posts/welcome/thumbnail.jpg\n create mode 100644 profile.jpg\n create mode 100644 search.json\n create mode 100644 site_libs/bootstrap/bootstrap-icons.css\n create mode 100644 site_libs/bootstrap/bootstrap-icons.woff\n create mode 100644 site_libs/bootstrap/bootstrap.min.css\n create mode 100644 site_libs/bootstrap/bootstrap.min.js\n create mode 100644 site_libs/clipboard/clipboard.min.js\n create mode 100644 site_libs/quarto-html/anchor.min.js\n create mode 100644 site_libs/quarto-html/popper.min.js\n create mode 100644 site_libs/quarto-html/quarto-syntax-highlighting.css\n create mode 100644 site_libs/quarto-html/quarto.js\n create mode 100644 site_libs/quarto-html/tippy.css\n create mode 100644 site_libs/quarto-html/tippy.umd.min.js\n create mode 100644 site_libs/quarto-listing/list.min.js\n create mode 100644 site_libs/quarto-listing/quarto-listing.js\n create mode 100644 site_libs/quarto-nav/headroom.min.js\n create mode 100644 site_libs/quarto-nav/quarto-nav.js\n create mode 100644 site_libs/quarto-search/autocomplete.umd.js\n create mode 100644 site_libs/quarto-search/fuse.min.js\n create mode 100644 site_libs/quarto-search/quarto-search.js\n create mode 100644 styles.css\norigin  git@github.com:7yl4r/tylar_info.git (fetch)\norigin  git@github.com:7yl4r/tylar_info.git (push)\nTo github.com:7yl4r/tylar_info.git\n   d59f058..799f3a0  HEAD -&gt; gh-pages\n\n(|) Deploying gh-pages branch to website (this may take a few minutes)\n(-) Deploying gh-pages branch to website (this may take a few minutes)\n[✓] Deploying gh-pages branch to website (this may take a few minutes)\nERROR: TypeError: error sending request for url (https://7yl4r.github.io/tylar_info/.nojekyll): connection error: connection reset\n\nTypeError: error sending request for url (https://7yl4r.github.io/tylar_info/.nojekyll): connection error: connection reset\n    at async mainFetch (deno:ext/fetch/26_fetch.js:247:14)\n    at async fetch (deno:ext/fetch/26_fetch.js:464:9)\n    at async file:///opt/quarto/bin/quarto.js:120526:34\n    at async withSpinner (file:///opt/quarto/bin/quarto.js:56614:9)\n    at async Object.publish4 [as publish] (file:///opt/quarto/bin/quarto.js:120520:9)\n    at async publishSite (file:///opt/quarto/bin/quarto.js:121230:38)\n    at async publish5 (file:///opt/quarto/bin/quarto.js:121448:61)\n    at async doPublish (file:///opt/quarto/bin/quarto.js:121404:13)\n    at async publishAction (file:///opt/quarto/bin/quarto.js:121440:13)\n    at async Command.fn (file:///opt/quarto/bin/quarto.js:121392:9)\nIt looks like the site did deploy however, and running the command again works normally."
+  },
+  {
+    "objectID": "cheatsheet.html",
+    "href": "cheatsheet.html",
+    "title": "Tylar_info",
+    "section": "",
+    "text": "This is a cheatsheet of things I might want ot copy-paste\n# create new blog post\nsource fn.sh && newpost postNameHere\n\n# push gh-pages\nquarto publish gh-pages --no-prompt --no-browser"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/quarto-blog-config/index.html",
+    "href": "posts/quarto-blog-config/index.html",
+    "title": "Quarto Blog Config",
+    "section": "",
+    "text": "Created a template for posts and a cheatsheet I can copy-paste from for this blog. Looked at using cookiecutter for creating the post but decided that was overkill. The project focuses mostly on whole-directory templates; I think using jinja might be the preferred way to handle single files."
   }
 ]

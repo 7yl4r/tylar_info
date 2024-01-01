@@ -1,0 +1,55 @@
+---
+title: "The Semantic-Web-to-AI Brain Fart Pipeline"
+author: "Tylar"
+date: "2023-12-30"
+---
+
+Today I am musing on semantic web tools again.
+Specifically I want to build a simple e-commerce site with semantic elements built into the inventory system.
+I posted on the discord of the "Lit" framework (my current favorite web components community) but nobody has replied.
+
+I went down a long rabbit hole trying to figure out how to build this thing, then decided that running the data through an AI would be better than getting all caught up on how to structure the data.
+
+This feels like a pointless exercise I have gone through countless times over the last year or five;
+every time I start building something it gets more and more complex until I am overwhelmed.
+Trying to figure out the best way to build the user experience keeps landing me at AI and mesh-networked-IoTs.
+Those topics remain too big for me to tackle until I have collaborators.
+And so... I give up and go try to make my space more presentable.
+I am no longer able to maintain focus without another active participant
+and this stuff is way too far removed from anyone I know.
+
+Below are a bunch of disjointed things I wrote while trying to get my thoughts together.
+
+-------
+
+Here is a lil sales pitch:
+
+```
+Your personal reviews and recommendations are of more value today than ever.
+This project allows you to reclaim ownership over that data.
+Recommend the works you trust, give discounts to your friends, and take commission for your influences.
+```
+
+-----
+
+Here are the user stories for the minimum viable product:
+
+* Find my preferred product supplier
+  * User states: I want X
+  * System asks: Who do you trust about X?
+* Publish an opinion
+  * 
+  
+  
+Who do you trust to ask for a recommendation on X?
+
+Network of trusted suppliers, where each "supplier"
+
+--------
+
+I want to eliminate the process of getting multiple pricing quotes from untrusted suppliers.
+
+-------------
+
+To reduce that goal down a bit: I want to record my opinions about products I have viewed and reviewed so that I can order them again or share them with friends.
+Maybe there is a way to do this with ...

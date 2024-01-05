@@ -1,0 +1,110 @@
+---
+title: "Brainstorming USF Libraries Researcher Workshop Topics"
+author: "Tylar"
+date: "2024-01-04"
+---
+
+I am brainstorming presentation ideas.
+
+Here is a list of titles:
+1. Scientific Method 2.0 : applied scientific modeling in the age of AI
+2. data about data :
+3. finding your niche in the machine : systems engineering principles
+4. Reclaim your data : Personal OpSec & Data management advice
+5. How to speak computer : Machine Learning, systems engineering, code languages, and magic
+
+Here is a list of slide ideas:
+  * underfitting, overfitting issues are pervasive
+  * tech secret vendor lock-in
+  * what is data, what is metadata?
+  * hash functions + content addressable file systems
+  * the semantic web
+  * UML diagramming
+  * user interface design
+  * the linux philosophy
+  * DRY
+  * personal blogging & "research journaling"
+
+Here is a diagram where I tried getting at the different states of product development with the intention of talking about vendor lock-in and the incentives put onto code "owners".
+
+```mermaid
+---
+title: State Diagram for a Digital Products Creators
+---
+graph TD
+
+start((startup))
+%% MVP addresses >=1 use case
+writeCode("working on the magic")
+sellCode("sold the magic")
+
+leaseCode("sell use of \n the magic")
+
+demoCode("give away the magic")
+
+%% ======
+start --> writeCode
+
+writeCode --> sellCode
+
+writeCode --> leaseCode --> writeCode
+
+writeCode --> demoCode --> writeCode
+```
+
+I am stuck at how to represent different levels of solution obfuscation and data harvesting in this diagram and I think I have lost sight of the purpose of this diagram.
+I need to take a step back and reconnect with what I want to communicate.
+
+Here is a bulleted list that inexplicably feels relevant:
+* data 
+* metadata ontologies rely on a common semantic understanding
+  * the problem of naming things
+* the "semantic web" makes the source of our shared understanding explicit
+* LLMs include mathematically encoded semantics
+
+But what do I really want to communicate to anybody doing research?
+* The importance of establishing trusted sources of information.
+* Remembering your inability to perceive an objective reality
+
+Here is a screenplay:
+
+```fountain
+EXT.  UNIVERSE - DARK
+
+A pure black screen.
+
+NARRATOR
+This is a representation of the universe.
+In this representation the information needed to explain everything is stored entirely in time.
+We can sit here and let I can talk for an infinite amount of time until I have explained everything to you but it is not much to look at.
+Let's convert some of the information into space.
+
+A single white speck pops into existence in the center of the screen.
+
+NARRATOR
+A single point in space existing only for the tiniest infinitesimal of time.
+That point has no meaningful spatial dimensions, but we have made it a little bigger so you can see it.
+This is a unified grand theory looks like in spacetime.
+One single piece of raw data that we can plug into a time equation that would define everything yet to happen to this point.
+The realities of space and time are intertwined in ways that render the universe computationally irreducible.
+This is not a model of all space and time as viewed from an omnipotent persepective.
+This is a model of everything as it is viewed from a conscious perspective - filling not both space *and* time - but filling space *or* time.
+
+The speck grows into a circular white line.
+As the circle grows it begins fading from bright white into hues into red and blue representing hotter and colder areas in the cosmic microwave background.
+The circle stops growing.
+
+NARRATOR
+This circle has spatial dimension because we have used up some time to create it.
+You have observed the passage of time, the expansion of space, and now your reference frame is no longer that of a single point.
+The representational model we created is stored in the color of the points along the circle.
+See the whole circle all at once by focusing on the center but percieving the outer limits.
+Focus your perspective on a single point along the edge to inspect it more closely.
+Hold in your mind this single spatial frame of reference.
+Be the circle.
+
+The circle disappears.
+
+NARRATOR
+...and whatever else time has in store.
+```

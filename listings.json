@@ -2,6 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/researcher-workshops-brainstorming/index.html",
+      "/posts/bbbb-electrical-victron-connection/index.html",
+      "/posts/semantic-brain-fart/index.html",
+      "/posts/gee-multih-usvi/index.html",
       "/posts/quarto-blog-config/index.html",
       "/posts/quarto-blog-init/index.html"
     ]

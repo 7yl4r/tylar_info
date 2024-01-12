@@ -1,0 +1,12 @@
+---
+title: "GEE DwC-like Ground Truth for USVI Corals"
+author: "Tylar"
+date: "2023-12-28"
+---
+
+Working with Chelsea Bryant today to import some satellite-derived benthic species data into google earth engine.
+I have done similar things before with Rookery Bay and Jobos Bay NERRS so I want to reuse some methods.
+I didn't do a good job documenting things last time so I hope to improve that along the way.
+
+I dug into the various scripts and was not able to make any progress.
+I forgot to take notes here; I will have to come back to this later.

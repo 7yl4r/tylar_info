@@ -1,0 +1,30 @@
+---
+title: "Bus Victron Electrical Connection"
+author: "Tylar"
+date: "2024-01-01"
+---
+
+Working to install shore power on the bus today. 
+I wired up the following circuit
+
+```mermaid
+main --> 30A_fuse --> breaker_box --> outlet
+```
+
+After flipping it on I got not power at the outlet.
+The main tested working; there are no indicator lights on the fuse or breaker to help me debug.
+I have decided to try going through the fuse to the victron because it has indicator lights.
+
+After inspecting the AC in & AC out connections it looks as though I need a particular type of connector.
+*note: I later found this was not the case*.
+The [manual](https://www.victronenergy.com/upload/documents/MultiPlus-II_3kVA_5kVA_120V/32424-MultiPlus-II___Quattro-II_120V-230V-pdf-en.pdf) does not specify what kind of connector it is.
+In [this forum post](https://powerforum.co.za/topic/7691-victron-multiplus-1280035-ac-inout-terminals/) acs calls it a "GST18 connector".
+I have the 50A variant of the multiplus-II with 4-wire split-phase connectors but all the diagrams and photos I am seeing have 3-wire;
+I have the wrong manual.
+I am feeling anxious about connecting the unit without the 4th wire;
+I do not know if it was designed to function this way.
+I found the right manual and it does indeed say "The AC input can be supplied from a split-phase 120/240V source or a single-phase 120V source."
+A big sigh of relief for that.
+I found a great install video [here](https://www.youtube.com/watch?v=xpXxVSlMSnQ).
+Turns out these are "spring connectors" that the wire actually can go into directly.
+

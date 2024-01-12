@@ -108,3 +108,92 @@ The circle disappears.
 NARRATOR
 ...and whatever else time has in store.
 ```
+
+----------------
+
+Revisiting this 2024-01-07 and I wrote the following:
+
+
+# Trust and Citations in Academic Publishing: Workshop Guide
+
+# command line basics 
+An introduction to command-line interfaces and basic POSIX commands. The workshop will cover the fundamentals of navigating the command line, executing commands, manipulating files and directories, and using command-line tools for various tasks.
+
+
+# intro to scientific computer programming for research
+An introduction to tools available for researchers.
+
+
+# Reproducibility in Data Analysis
+How to maximize the reproducibility of your results. A guide to implementing best practices in data analysis, including documentation, version control, and sharing code and data.
+
+
+
+* getting a computer to do something is a translation problem
+* .
+
+
+# Data Visualization
+
+
+# User Experience Design for Research
+
+
+
+# commanding computers 
+As
+ AI becomes increasingly accessible An introduction to command-line 
+interfaces and basic POSIX commands. The workshop will cover the 
+fundamentals of navigating the command line, executing commands, 
+manipulating files and directories, and using command-line tools for 
+various tasks.
+
+
+
+
+
+
+# Reproducibility in Data Analysis
+How
+ to maximize the reproducibility of your results. A guide to 
+implementing best practices in data analysis, including documentation, 
+version control, and sharing code and data.
+
+how to cite a superintelligence : why we cite 
+
+science-> know (Latin)
+skepticism->search (Greek)
+cite ->call (Latin)
+
+scientific thinking means having a huge amount of skepticism.
+trust absolutely only what your own data says.
+if you are to trust words, then you must establish sufficient shared experience.
+the most trustworthy scientific claims are ones you can and have tested yourself. 
+
+An ideal scientific publication makes one specific claim so well that any 
+reader would be convinced, and so concisely that it would be an 
+entertaining read.
+
+Problem: audience. We must rely on shared experiences to establish trust. This works best if you mostly already agree with the author. Citations can be used as a way to establish trust by citing authors, publishers, or results that the reader already agrees with. Word choice and use of familiar jargon can also establish a sense of shared experience with the reader.
+
+Problem: data. We must always be skeptical of data. Do we trust those who collected and published it? Can we collect it ourselves?
+
+Heuristic: 
+- citing a person. means you have evaluated the trustworthiness of a person.
+- citing an org says I trust everyone in this org and the mechanations of the org
+- citing an AI says I trust everyone who contributed to the training data and the modeling method being used
+
+fact citation provenance 
+
+types of citations
+• define a term (see here for clarification)
+• substantiate a claim (see here for justification)
+• data source (see here for raw data)
+• code 
+
+As a reader I want to __ so that __
+- lookup the definition of a term
+- investigate the legitimacy of a claim
+- reproduce some results presented
+- 
+

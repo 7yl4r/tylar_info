@@ -1,5 +1,5 @@
 #!/bin/bash
-newpost () {
+newPost () {
   echo "creating post named $1..."
   POSTNAME=$1
   POSTPATH=posts/$POSTNAME/index.qmd

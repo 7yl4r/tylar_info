@@ -68,6 +68,18 @@ I will use a pretty standard git workflow going forward and not paste in future 
 ```
 
 I want rendered posts to show on github pages.
+Some initial setup suggested by [this quarto doc](https://quarto.org/docs/publishing/github-pages.html).
+
+```
+git checkout --orphan gh-pages
+git reset --hard # make sure all changes are committed before running this!
+git commit --allow-empty -m "Initialising gh-pages branch"
+git push origin gh-pages
+```
+
+This creates the `gh-pages` branch.
+If the `gh-pages` branch does not exist then then next command will throw a cryptic error about `_publish.yml`.
+
 I tried `quarto publish gh-pages` but it hung for several minutes and errored when the computer went to sleep:
 
 ```

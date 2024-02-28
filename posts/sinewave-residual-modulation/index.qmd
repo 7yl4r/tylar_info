@@ -30,4 +30,6 @@ Or perhaps using a known distance to the transmitter could give you a sense of w
 Anyway, this is how I would get started if I was leading a new SETI project.
 Aim something at a pulsar and start crunching on this.
 
+![wavelet_residual_am_image](./wavelet_residual_am_recieving.svg)
+
 

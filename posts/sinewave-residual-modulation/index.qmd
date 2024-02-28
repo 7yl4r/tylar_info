@@ -1,0 +1,33 @@
+---
+title: "SineWave Residual Modulation"
+author: "Tylar"
+date: "2024-02-27"
+---
+
+I had the "opportunity" to spend many hours alone with my own thoughts over the last month.
+I spent much of the time imagining how I would transmit a signal if I were wanting to contact aliens.
+What I came up with may not be particularly novel since I am not a signal processing expert
+but hopefully this writing won't upset my grad school professors on the subject too much.
+
+We start with a repeating signal to give us a method of synchronizing clocks between locations.
+A more capable civilization might modulate the wavelet of a pulsar but my soft human meat brain likes to imagine a sine wave to serve as this timing wave.
+From this wave we can easily detect a frequency (f) and express it as a period (T).
+
+My idea from there is to capture the residual fluctuations over the wave and average them.
+For symmetrical waves like sinusoidal waves the first half of the wave can be added to the second half (half-period residual modulation detection).
+But in general any given wavelet would be differenced from the next to produce a set of residuals (full period residual modulation detection).
+
+As far as I know this is not something that can be accomplished with analog signal processing.
+The signal must be stored for at least the full period T and then combined with the next wavelet instance.
+The collection and storage of the signal will have a certain bitrate, which must be higher than the timing wave.
+It is not clear to me what bitrate would be the ideal choice for a given timing frequency.
+Bigger always seems better but I remain uncertain how to encode universally interpretable information in a time series, regardless of the bitrate.
+One ideal would be to transmit a signal with similar meaning at multiple bitrates - a lower resolution vs a higher resolution of the same meaning.
+Could the antenna bandwidth characteristics somehow imply an ideal bitrate?
+Maybe there is something to be figured related to the [maximum throughput](https://en.wikipedia.org/wiki/Network_throughput#Maximum_throughput) or [channel capacity](https://en.wikipedia.org/wiki/Channel_capacity) of the proposed signal processing paradigm.
+Or perhaps using a known distance to the transmitter could give you a sense of what sampling frequency would be reasonable to expect.
+
+Anyway, this is how I would get started if I was leading a new SETI project.
+Aim something at a pulsar and start crunching on this.
+
+

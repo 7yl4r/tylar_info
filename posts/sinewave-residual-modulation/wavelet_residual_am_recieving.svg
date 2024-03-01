@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.1353967"
-     inkscape:cx="409.98885"
-     inkscape:cy="502.90791"
+     inkscape:cx="410.42924"
+     inkscape:cy="603.31336"
      inkscape:window-width="2490"
      inkscape:window-height="1536"
      inkscape:window-x="0"
@@ -124,14 +124,14 @@
        style="font-size:29.3333px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';white-space:pre;shape-inside:url(#rect12);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:7.74803;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="40.449219"
          y="81.112455"
-         id="tspan1">Sinewave-Residual Modulation :
+         id="tspan4">Sinewave-Residual Modulation :
 </tspan><tspan
          x="40.449219"
          y="117.77908"
-         id="tspan2">extract a repeated transmission </tspan><tspan
+         id="tspan5">extract a repeated transmission </tspan><tspan
          x="40.449219"
          y="154.44571"
-         id="tspan3">hidden in a sin wave</tspan></text>
+         id="tspan6">hidden in a sin wave</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
@@ -151,7 +151,7 @@
        id="text16"><tspan
          sodipodi:role="line"
          id="tspan16"
-         style="stroke-width:2.05"></tspan></text>
+         style="stroke-width:2.05" /></text>
     <text
        xml:space="preserve"
        style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
@@ -217,6 +217,6 @@
          id="tspan20"
          style="stroke-width:2.05"
          x="17.37027"
-         y="238.38229">avg(sum(t[0...T]))</tspan></text>
+         y="238.38229">avg(t[0...T]) - t[T...2T])</tspan></text>
   </g>
 </svg>

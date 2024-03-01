@@ -1,0 +1,37 @@
+---
+title: "Trustless Radio Broadcasting"
+author: "Tylar"
+date: "2024-02-29"
+---
+
+Tonight I am wondering on why my recent "SineWave Residual Modulation" might be useful and I think it has something to do with "trust" or... more enigmatically stated: "shared language".
+Supersampling a sinusoidal signal and finding a steady signal in the residuals could be a way to encrypt information.
+Any swath of spacetime where the lower-frequency timing signal would be detectable would have access to the key, and messages on higher-frequencies could be decrypted using that key.
+The supersampling frequency would be the same as the new recieving frequency.
+
+But also maybe I am having some confusion about how the antenna systems work. 
+I am trying to read about ["Software Defined Radio"](https://en.wikipedia.org/wiki/Software-defined_radio) but still struggling with some concepts.
+
+An antenna (or perhaps more accurately, an RF Frontend) is designed to pick up ((and/or?) transmit) a specific frequency.
+At this selected frequency a signal is detected and can be captured as a time-series.
+The processing I am referring to takes place within a detected periodic signal within this time-series.
+It is confusing to describe but I think a lower-frequency pattern can be transmitted in a higher-frequency medium.
+Imagine tuning to a radio station and hearing a single tone.
+But then within this tone would be tiny variations between each wave period.
+These variations could be processed using the methods from my previous post and the message found as sampled at the frequency of the analog-to-digital converter.
+
+The frequency of the A2D converter could then be used as a broadcast frequency on which to broadcast messages encrypted by the message found on the original radio station.
+
+We can imagine a system of "major stations" with the power to broadcast & recieve widely a signal, and "minor stations" which operate more locally.
+
+![mesh depcition](./multifreq-transmission-mesh.svg)
+
+A "Major station" signal can act as decoding key for minor station signals.
+
+low freq message can be used to encrypt higher freq messages.
+
+multi-frequency stations input higher-freq messages and choose to continue outputting current message or begin rebroadcasting message from higher-freq transmitting neighbor.
+
+So here we have a "trustless" ham radio encryption system?
+Little stations can speak to each other while blessed by the wider transmission.
+Stations outside of the spacetime covered by the major station will only be able to understand other minor stations if they have memory of the major station transmission.

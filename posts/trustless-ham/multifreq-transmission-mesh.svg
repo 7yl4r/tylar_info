@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.1687991"
-     inkscape:cx="707.56386"
+     inkscape:cx="787.98829"
      inkscape:cy="477.4131"
      inkscape:window-width="2490"
      inkscape:window-height="1536"
@@ -380,49 +380,6 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text27"
-       style="font-size:29.3333px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';white-space:pre;shape-inside:url(#rect27);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
-         x="823.8418"
-         y="65.723783"
-         id="tspan1">Major station signal can act as </tspan><tspan
-         x="823.8418"
-         y="102.39041"
-         id="tspan2">decoding key for minor station </tspan><tspan
-         x="823.8418"
-         y="139.05703"
-         id="tspan3">signals.
-</tspan><tspan
-         x="823.8418"
-         y="175.72366"
-         id="tspan4">
-</tspan><tspan
-         x="823.8418"
-         y="212.39029"
-         id="tspan5">low freq message can be used to </tspan><tspan
-         x="823.8418"
-         y="249.05691"
-         id="tspan6">encrypt higher freq messages.
-</tspan><tspan
-         x="823.8418"
-         y="285.72354"
-         id="tspan7">
-</tspan><tspan
-         x="823.8418"
-         y="322.39016"
-         id="tspan8">multi-frequency stations input </tspan><tspan
-         x="823.8418"
-         y="359.05679"
-         id="tspan9">higher-freq messages and choose </tspan><tspan
-         x="823.8418"
-         y="395.72342"
-         id="tspan10">to continue outputting current </tspan><tspan
-         x="823.8418"
-         y="432.39004"
-         id="tspan11">message or begin rebroadcasting </tspan><tspan
-         x="823.8418"
-         y="469.05667"
-         id="tspan12">message from higher-freq </tspan><tspan
-         x="823.8418"
-         y="505.72329"
-         id="tspan13">transmitting neighbor.</tspan></text>
+       style="font-size:29.3333px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';white-space:pre;shape-inside:url(#rect27);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

@@ -25,6 +25,55 @@ I am feeling anxious about connecting the unit without the 4th wire;
 I do not know if it was designed to function this way.
 I found the right manual and it does indeed say "The AC input can be supplied from a split-phase 120/240V source or a single-phase 120V source."
 A big sigh of relief for that.
+
+## wiring up ac in
 I found a great install video [here](https://www.youtube.com/watch?v=xpXxVSlMSnQ).
 Turns out these are "spring connectors" that the wire actually can go into directly.
+
+Standard colored NEMA wires should be connected like so:
+
+```mermaid
+white -- neutral --> N
+red   -- line 2  --> L2 
+green -- ground  --> PE
+black -- line 1  --> L1
+```
+
+![inverter-ac-in-wires-disconnected](./inverter-ac-in-wires-disconnected)
+
+![inverter-ac-in-wires-connected](./inverter-ac-in-wires-connected)
+
+## wiring the plug and breaker
+Next I need to talk about bonding the neutral and ground wires.
+
+Neutral and Ground should be bonded in only 1 place to prevent ground loops.
+* neutral/ground is bonded at the shore panel, not inside the RV
+* neutral/ground is bonded at the generator, not inside the RV
+
+So basically, the ground connects to the chassis, and the neutral is treated as an isolated circuit in the RV.
+Neither the ground nor neutral should be breakered, so I am using a 2-pole breaker to break the two hot wires coming in.
+
+![exterior-breaker-n-plug]()
+
+I want to add a housing around this; an old toolbox or something would work.
+
+## wiring the batteries
+With default victron configuration I am uncomfortable hooking up my battery.
+The configuration is set for "Victron Gel Deep Discharge", which works best for:
+* Victron AGM Deep Discharge 
+* other AGM batteries
+* many types of flat-plate flooded batteries
+
+I do not know the details of the ["DEESPAEK 12V LiFePO4 Battery 200Ah w/ integrated BMS, 4k+ Deep Cycles"](https://www.amazon.com/gp/product/B0B53FNKC5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1&_encoding=UTF8&tag=7yl4r-20&linkCode=ur2&linkId=6fefb08ed4754e3039efca1f041e6239&camp=1789&creative=9325) battery I purchased from amazon.
+
+## Victron operation
+Now let's get the victron running.
+
+The unit has a switch with three settings:
+* I : on
+* 0 : off
+* II : charger only
+
+To change configuration from the factory settings an "Interface MK3-USB (VE.Bus to USB)" is needed.
+These run about 70$. 
 

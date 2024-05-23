@@ -1,0 +1,18 @@
+---
+title: "CalCOFI Server Clone Attempt"
+author: "Tylar"
+date: "2024-01-16"
+---
+
+Attempting to clone the CalCOFI server to see if we can reuse the docker config.
+
+```
+git clone git@github.com:CalCOFI/server.git
+echo 'PASSWORD=Cc!' > .env
+
+# docker launch as daemon
+docker compose up -d
+```
+
+Found and fixed a simple syntax error in the docker-compose.yaml.
+Then ran out of disk space on my laptop.

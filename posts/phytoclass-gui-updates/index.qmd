@@ -1,0 +1,8 @@
+---
+title: "Phytoclass GUI Updates"
+author: "Tylar"
+date: "2024-01-16"
+---
+
+Doing a last-minute attempt at resolving the TODO items I collected in the prototype phytoclass GUI last month.
+The amount of requested changes feels overwhelming

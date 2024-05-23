@@ -1,0 +1,60 @@
+---
+title: "Choosing Images for Rookery Bay NERR in GEE"
+author: "Tylar"
+date: "2024-01-25"
+---
+
+Today I am working to select the "best" satellite images for input into a machine learning model.
+We want full coverage of the RBNERR area but we are also looking for consistency between images.
+
+A display of how evenly the area is covered is shown below:
+
+```javascript
+exports.displayIC = function(d){
+  var imageCollection = d.imageCollection;
+  var sumImg = imageCollection.count();
+  Map.addLayer(
+    sumImg
+    {min: 1, max: 51},
+  )
+  Map.centerObject(sumImg)
+}
+
+var rookery = require(
+  "users/tylarmurray/rois:RBNERR"
+)
+exports.displayIC({
+  imageCollection: rookery.wv_image_collection
+})
+```
+
+The `centerObject` call left things very zoomed out but this works well otherwise.
+I have reduced the opacity a bit in the following screenshot so the basemap can show through slightly.
+
+![covermap](./coverMap.png)
+
+I am struggling to choose a method for identifying the best subset of images.
+It was suggested to limit by season but it is unclear to me how to choose which season is best.
+
+I ran the code again but on an image collection that has been cloudmasked.
+I added this little function to the `users/tylarmurray/rois/RBNERR` namespace:
+
+```javascript
+// return a clean & normalized WV imageCollection.
+exports.getCleanWVImageCollection = function(){
+  var wv_fns = require('users/tylarmurray/sat_fns:wv_fns');
+
+  return exports.wv_image_collection
+    .map(wv_fns.convertToRatios)  // normalization
+    .map(wv_fns.cloudMaskImage)  // cloudmask
+  ;
+}
+```
+
+The new image shows much more detail than it should:
+
+![covermap w/ cloudmask](./covermap_cloudmasked.png)
+
+This means that the cloudmask function is false-positive masking non-clouds often enough for the details to show up here.
+The amount of detail leaking through is concerning.
+

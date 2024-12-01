@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Tylar">
-<meta name="dcterms.date" content="2023-12-27">
+<meta name="dcterms.date" content="2024-02-20">
 
-<title>Quarto Blog Config – Tylar_info</title>
+<title>Laptop HDD RePartition – Tylar_info</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Quarto Blog Config</h1>
+      <h1 class="title">Laptop HDD RePartition</h1>
                       </div>
   </div>
     
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 27, 2023</p>
+        <p class="date">February 20, 2024</p>
       </div>
     </div>
     
@@ -151,7 +151,42 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Created a template for posts and a cheatsheet I can copy-paste from for this blog. Looked at using <a href="https://github.com/cookiecutter/cookiecutter">cookiecutter</a> for creating the post but decided that was overkill. The project focuses mostly on whole-directory templates; I think using jinja might be the preferred way to handle single files.</p>
+<p>My laptop hard drive is “full”.</p>
+<pre><code>sudo fdisk -l
+[...]
+Disk /dev/nvme0n1: 476.94 GiB, 512110190592 bytes, 1000215216 sectors
+Disk model: HFM512GD3JX013N                         
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: CC82F627-8A27-4326-9940-38E19AA36263
+
+Device             Start        End   Sectors   Size Type
+/dev/nvme0n1p1      2048     534527    532480   260M EFI System
+/dev/nvme0n1p2    534528     567295     32768    16M Microsoft reserved
+/dev/nvme0n1p3    567296  586504795 585937500 279.4G Microsoft basic data
+/dev/nvme0n1p4 999168000 1000214527   1046528   511M Windows recovery environment
+/dev/nvme0n1p5 586506240  977129471 390623232 186.3G Linux filesystem
+/dev/nvme0n1p6 977129472  999165951  22036480  10.5G Linux swap
+
+Partition table entries are not in disk order.</code></pre>
+<p>It looks like a lot of that space is being wasted by something called “Microsoft Windows” - maybe some kind of virus. Let’s clear those partitions and free them up for something useful.</p>
+<p>there we go:</p>
+<pre><code>sudo fdisk -l
+[...]
+Disk /dev/nvme0n1: 476.94 GiB, 512110190592 bytes, 1000215216 sectors
+Disk model: HFM512GD3JX013N                         
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: CC82F627-8A27-4326-9940-38E19AA36263
+
+Device             Start       End   Sectors   Size Type
+/dev/nvme0n1p1      2048    534527    532480   260M EFI System
+/dev/nvme0n1p5 586506240 977129471 390623232 186.3G Linux filesystem
+/dev/nvme0n1p6 977129472 999165951  22036480  10.5G Linux swap</code></pre>
 
 
 

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
+   sodipodi:docname="wavelet_residual_am_recieving.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1353967"
+     inkscape:cx="410.42924"
+     inkscape:cy="603.31336"
+     inkscape:window-width="2490"
+     inkscape:window-height="1536"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="40.449504"
+       y="59.756848"
+       width="614.06511"
+       height="128.00933"
+       id="rect12" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#ff0808;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 17.12144,65.222603 c 0,0 0.638957,-11.191669 11.110871,-10.758473 10.471915,0.433198 11.893681,10.12801 11.893681,10.12801"
+       id="path7" />
+    <path
+       style="fill:none;stroke:#ff9d08;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 40.105311,63.930165 c 0,0 0.638957,11.191673 11.110872,10.758469 10.471915,-0.433193 11.89368,-10.128007 11.89368,-10.128007"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#fcff08;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 63.089185,65.222603 c 0,0 0.638957,-11.191669 11.110871,-10.758473 10.471917,0.433198 11.89368,10.12801 11.89368,10.12801"
+       id="path9" />
+    <path
+       style="fill:none;stroke:#08ff0d;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 86.073054,63.930165 c 0,0 0.638963,11.191673 11.110882,10.758469 10.471914,-0.433193 11.893684,-10.128007 11.893684,-10.128007"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#1508ff;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 109.05694,65.222603 c 0,0 0.63896,-11.191669 11.11088,-10.758473 10.47192,0.433198 11.89369,10.12801 11.89369,10.12801"
+       id="path11" />
+    <path
+       style="fill:none;stroke:#ff08f1;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 132.04083,63.930165 c 0,0 0.63896,11.191673 11.11088,10.758469 10.47192,-0.433193 11.89368,-10.128007 11.89368,-10.128007"
+       id="path12" />
+    <path
+       style="fill:none;stroke:#ff0808;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 28.195895,213.41045 c 0,0 0.638957,-11.19167 11.110871,-10.75847 10.471915,0.4332 11.893681,10.12801 11.893681,10.12801"
+       id="path7-2" />
+    <path
+       style="fill:none;stroke:#ff9d08;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 51.179766,212.11802 c 0,0 0.638957,11.19167 11.110872,10.75846 10.471915,-0.43319 11.89368,-10.128 11.89368,-10.128"
+       id="path8-02" />
+    <path
+       style="fill:none;stroke:#fcff08;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 84.644838,214.16738 c 0,0 0.638957,-11.19167 11.110871,-10.75847 10.471911,0.4332 11.893681,10.12801 11.893681,10.12801"
+       id="path9-3" />
+    <path
+       style="fill:none;stroke:#08ff0d;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.6287,212.87495 c 0,0 0.63897,11.19167 11.11089,10.75846 10.47191,-0.43319 11.89368,-10.128 11.89368,-10.128"
+       id="path10-7" />
+    <path
+       style="fill:none;stroke:#1508ff;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 137.99974,213.87469 c 0,0 0.63896,-11.19167 11.11088,-10.75847 10.47192,0.4332 11.89369,10.12801 11.89369,10.12801"
+       id="path11-5" />
+    <path
+       style="fill:none;stroke:#ff08f1;stroke-width:1.56833;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 160.98363,212.58226 c 0,0 0.63896,11.19167 11.11088,10.75846 10.47192,-0.43319 11.89368,-10.128 11.89368,-10.128"
+       id="path12-9" />
+    <path
+       style="fill:none;stroke:#ff0808;stroke-width:1.21793;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 27.906531,127.78091 c 0,0 0.496198,-8.69118 8.628426,-8.35476 8.132229,0.3364 9.236337,7.86516 9.236337,7.86516"
+       id="path7-6" />
+    <path
+       style="fill:none;stroke:#ff9d08;stroke-width:1.21793;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 53.816675,119.94989 c 0,0 0.496199,8.69117 8.628427,8.35476 8.132229,-0.33641 9.236337,-7.86515 9.236337,-7.86515"
+       id="path8-0" />
+    <path
+       style="fill:none;stroke:#fcff08;stroke-width:1.21793;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 78.536804,127.64892 c 0,0 0.4962,-8.69117 8.62843,-8.35476 8.132235,0.3364 9.236335,7.86516 9.236335,7.86516"
+       id="path9-6" />
+    <path
+       style="fill:none;stroke:#08ff0d;stroke-width:1.21793;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.13101,119.66285 c 0,0 0.49621,8.69117 8.62843,8.35476 8.13224,-0.33641 9.23635,-7.86515 9.23635,-7.86515"
+       id="path10-2" />
+    <path
+       style="fill:none;stroke:#1508ff;stroke-width:1.21793;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 125.35894,125.86539 c 0,0 0.4962,-8.69118 8.62843,-8.35476 8.13223,0.3364 9.23634,7.86516 9.23634,7.86516"
+       id="path11-6" />
+    <path
+       style="fill:none;stroke:#ff08f1;stroke-width:1.21793;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 148.91048,118.79411 c 0,0 0.49621,8.69117 8.62844,8.35476 8.13223,-0.33641 9.23634,-7.86515 9.23634,-7.86515"
+       id="path12-1" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text12"
+       style="font-size:29.3333px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';white-space:pre;shape-inside:url(#rect12);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:7.74803;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="40.449219"
+         y="81.112455"
+         id="tspan4">Sinewave-Residual Modulation :
+</tspan><tspan
+         x="40.449219"
+         y="117.77908"
+         id="tspan5">extract a repeated transmission </tspan><tspan
+         x="40.449219"
+         y="154.44571"
+         id="tspan6">hidden in a sin wave</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="8.9080896"
+       y="125.53651"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="stroke-width:2.05"
+         x="8.9080896"
+         y="125.53651">avg(    +     ,    +    ,    +    ,...)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="52.55278"
+       y="119.6756"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="stroke-width:2.05" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="13.874125"
+       y="113.06218"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="stroke-width:2.05"
+         x="13.874125"
+         y="113.06218">half-period residuals</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="15.758494"
+       y="198.50322"
+       id="text17-9"><tspan
+         sodipodi:role="line"
+         id="tspan17-7"
+         style="stroke-width:2.05"
+         x="15.758494"
+         y="198.50322">full-period residuals</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="7.9853792"
+       y="216.33734"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="stroke-width:2.05"
+         x="7.9853792"
+         y="216.33734">avg(           -           ,          -...)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="11.073995"
+       y="136.0983"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="stroke-width:2.05"
+         x="11.073995"
+         y="136.0983">avg(sum([t_0...t_T/2], [t_T/2...T]))</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="9.1161833"
+       y="147.97325"
+       id="text19-2"><tspan
+         sodipodi:role="line"
+         id="tspan19-9"
+         style="stroke-width:2.05"
+         x="9.1161833"
+         y="147.97325">avg(sum(t[0...T/2], t[T/2...T]))</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.7611px;font-family:'Nimbus Mono PS';-inkscape-font-specification:'Nimbus Mono PS';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:2.05;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="17.37027"
+       y="238.38229"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="stroke-width:2.05"
+         x="17.37027"
+         y="238.38229">avg(t[0...T]) - t[T...2T])</tspan></text>
+  </g>
+</svg>

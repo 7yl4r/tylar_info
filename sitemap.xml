@@ -1,55 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://7yl4r.github.io/tylar_info/post_template.html</loc>
+    <lastmod>2024-12-01T18:26:27.349Z</lastmod>
+  </url>
+  <url>
     <loc>https://7yl4r.github.io/tylar_info/index.html</loc>
-    <lastmod>2024-01-18T19:24:03.443Z</lastmod>
-  </url>
-  <url>
-    <loc>https://7yl4r.github.io/tylar_info/posts/rainbow-river-2024-01/index.html</loc>
-    <lastmod>2024-01-18T19:24:02.768Z</lastmod>
-  </url>
-  <url>
-    <loc>https://7yl4r.github.io/tylar_info/posts/calcofi-clone/index.html</loc>
-    <lastmod>2024-01-18T19:24:02.363Z</lastmod>
-  </url>
-  <url>
-    <loc>https://7yl4r.github.io/tylar_info/posts/semantic-brain-fart/index.html</loc>
-    <lastmod>2024-01-18T19:24:01.952Z</lastmod>
+    <lastmod>2024-12-01T18:26:27.349Z</lastmod>
   </url>
   <url>
     <loc>https://7yl4r.github.io/tylar_info/posts/bbbb-electrical-victron-connection/index.html</loc>
-    <lastmod>2024-01-18T19:24:01.521Z</lastmod>
+    <lastmod>2024-12-01T18:26:27.350Z</lastmod>
   </url>
   <url>
-    <loc>https://7yl4r.github.io/tylar_info/posts/researcher-workshops-brainstorming/index.html</loc>
-    <lastmod>2024-01-18T19:24:00.885Z</lastmod>
-  </url>
-  <url>
-    <loc>https://7yl4r.github.io/tylar_info/about.html</loc>
-    <lastmod>2024-01-18T19:24:00.096Z</lastmod>
-  </url>
-  <url>
-    <loc>https://7yl4r.github.io/tylar_info/cheatsheet.html</loc>
-    <lastmod>2024-01-18T19:24:00.298Z</lastmod>
+    <loc>https://7yl4r.github.io/tylar_info/posts/laptop-hdd-repartition/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.413Z</lastmod>
   </url>
   <url>
     <loc>https://7yl4r.github.io/tylar_info/posts/phytoclass-gui-updates/index.html</loc>
-    <lastmod>2024-01-18T19:24:01.116Z</lastmod>
+    <lastmod>2024-12-01T18:26:27.413Z</lastmod>
   </url>
   <url>
-    <loc>https://7yl4r.github.io/tylar_info/posts/quarto-blog-config/index.html</loc>
-    <lastmod>2024-01-18T19:24:01.711Z</lastmod>
+    <loc>https://7yl4r.github.io/tylar_info/posts/semantic-brain-fart/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.414Z</lastmod>
   </url>
   <url>
-    <loc>https://7yl4r.github.io/tylar_info/posts/gee-multih-usvi/index.html</loc>
-    <lastmod>2024-01-18T19:24:02.165Z</lastmod>
+    <loc>https://7yl4r.github.io/tylar_info/posts/sinewave-residual-modulation/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.414Z</lastmod>
   </url>
   <url>
     <loc>https://7yl4r.github.io/tylar_info/posts/quarto-blog-init/index.html</loc>
-    <lastmod>2024-01-18T19:24:02.581Z</lastmod>
+    <lastmod>2024-12-01T18:26:27.413Z</lastmod>
   </url>
   <url>
-    <loc>https://7yl4r.github.io/tylar_info/post_template.html</loc>
-    <lastmod>2024-01-18T19:24:02.973Z</lastmod>
+    <loc>https://7yl4r.github.io/tylar_info/cheatsheet.html</loc>
+    <lastmod>2024-12-01T18:26:27.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/posts/gee-rbnerr-wv-image-choosing/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/posts/rainbow-river-2024-01/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/posts/trustless-ham/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.414Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/posts/researcher-workshops-brainstorming/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.414Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/posts/calcofi-clone/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/posts/quarto-blog-config/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/posts/gee-multih-usvi/index.html</loc>
+    <lastmod>2024-12-01T18:26:27.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://7yl4r.github.io/tylar_info/about.html</loc>
+    <lastmod>2024-12-01T18:26:27.349Z</lastmod>
   </url>
 </urlset>

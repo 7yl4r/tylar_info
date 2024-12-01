@@ -1,0 +1,47 @@
+---
+title: "{{POSTTITLE}}"
+author: "Tylar"
+date: "{{DT}}"
+---
+
+Students of the USF remote sensing course completed projects using google earth engine in order to attempt classification of benthic cover.
+Projects included:
+
+project   | benthic habitat or variable targeted | sat source(s) used       | target ROI(s)
+----------|--------------------------------------|--------------------------|--------------
+Mostafa   | primary productivity                 | MODIS VGPM 8d 9km        | Florida Keys
+Angelique | Coral Cover                          |                          | Jobos Bay, PR
+Chelsea   |  turbidity                           | Sentinel2                | USVI
+
+
+
+
+Angelique
+
+Title: Jobos Bay National Estuarine Research Reserve: Seagrass & Reef classification
+
+Description: Evaluate habitat distribution in Jobos Bay NERR using a thematic map showing reef and seagrass classification.
+
+ 
+
+Rosealyn
+
+Title: Mapping Coral Reefs in the Florida Keys
+
+Description: The aim of this project is to create a map of the Florida Keys showcasing coral coverage in 2020. I am using ground-truth data from the NOAA CREMP database and satellite imagery from Sentinel-2.
+
+ 
+
+Claudia
+
+Tittle: Mangrove cover change in Placencia Belize from 2014 to 2023
+
+Description: Use of thematic maps to explore mangrove cover change in 9 years.
+
+ 
+
+Mostafa
+
+Title: Comparing Net Primary Productivity: Satellite vs. In Situ Data in the Florida Keys (2015-2020)
+
+Description: utilizing net primary productivity (NPP) derived from in situ data collected during MBON cruises and contrasted it with NPP obtained from the MODIS satellite product.

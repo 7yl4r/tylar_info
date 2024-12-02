@@ -39,9 +39,9 @@ green -- ground  --> PE
 black -- line 1  --> L1
 ```
 
-![inverter-ac-in-wires-disconnected](./inverter-ac-in-wires-disconnected)
+![inverter-ac-in-wires-disconnected](./inverter-ac-in-wires-disconnected.jpg)
 
-![inverter-ac-in-wires-connected](./inverter-ac-in-wires-connected)
+![inverter-ac-in-wires-connected](./inverter-ac-in-wires-connected.jpg)
 
 ## wiring the plug and breaker
 Next I need to talk about bonding the neutral and ground wires.
